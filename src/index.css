@@ -1,0 +1,31 @@
+:root {
+	/* Primary */
+	--orange-color: hsl(26, 100%, 55%);
+	--pale-orange-color: hsl(25, 100%, 94%);
+
+	/* Neutral */
+	--very-vark-blue-color: hsl(220, 13%, 13%);
+	--dark-grayish-blue-color: hsl(219, 9%, 45%);
+	--grayish-blue-color: hsl(220, 14%, 75%);
+	--light-grayish-blue-color: hsl(223, 64%, 98%);
+	--white-color: hsl(0, 0%, 100%);
+	--black-color: hsl(0, 0%, 0%);
+}
+
+@font-face {
+	font-family: 'Kumbh Sans';
+	src: url(/assets/fonts/KumbhSans-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Kumbh Sans';
+	src: url(/assets/fonts/KumbhSans-Bold.ttf);
+	font-weight: 700;
+}
+
+body {
+	margin: 0;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 16px;
+}
